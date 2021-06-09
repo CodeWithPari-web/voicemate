@@ -1,0 +1,16 @@
+table{
+    /* background-color: cyan; */
+    margin: 10px 0px;
+    width: 90%;
+    /* border: 2px solid cyan; */
+}
+th{
+    background-color: #ececec;
+    border: 2px solid #ececec;
+    text-align: center;
+}
+td{
+    text-align: center;
+    background-color: #ececec;
+    border: 2px solid #ececec;
+}

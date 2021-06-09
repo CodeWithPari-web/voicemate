@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="/res.css">
+    <link rel="stylesheet" href="/apisreport.css">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left-nav">
+
+            <div class="menu-bar" onclick="mn()">
+                <div class="dot">
+                    <div class="dots"></div>
+                    <div class="dots"></div>
+                    <div class="dots"></div>
+                </div>
+                <div class="line">
+                    <div class="lines"></div>
+                    <div class="lines"></div>
+                    <div class="lines"></div>
+                </div>
+            </div>
+            <img class="res" src="/logo1.webp" alt="" id="logo1">
+            <div class="blnc res">Total balance : VND 00.00 <a href="upgrade.html">Upgrade</a></div>
+        </div>
+        <div class="right-nav ">
+            <div class="language ">
+
+                <i class="fa fa-globe active" aria-hidden="true"></i>
+                <div id="lang"><select name="" id="slct">
+                    <option value="lang">English
+                    </option>
+                    <option value="lang">English
+                    </option>
+                    <option value="lang">English
+                    </option>
+                </select></div>
+                <div id="lan"><span>English</span> br<span>dummy</span> </div>
+            </div>
+            <div class="person ">
+
+                <i class="fa fa-user active" aria-hidden="true"></i>
+                <span id="per">Mithunpj</span>
+                <i class="fa fa-caret-down active" onclick="caret()" aria-hidden="true" ></i>
+                <div id="login" class="active">
+                    <a href="login.html">login</a>
+                    <a href="#">logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="main">
+        <div class="left-container" id="left-container">
+            <div class="links" id="link1"><a href="#">Dashboard</a></div>
+            <div class="links" id="link2"><a href="apis.html">APIs</a></div>
+            <div class="links" id="link3"><a href="apiskeys.html">APIs keys</a></div>
+            <div class="links" id="link4"><a href="/apisreport.html">APIs Report</a></div>
+            <div class="links" id="link5"><a href="/history.html">Payment History</a></div>
+            <div class="links" id="link6"><a href="upgrade.html">upgrade</a></div>
+            <div class="links" id="link7"><a href="#">Contact Us</a></div>
+            <div class="links" id="link8"><a href="/login.html">login</a></div>
+            <div class="links" id="link9"><a href="#">logout</a></div>
+            
+        </div>
+        <div class="left-container2" id="left-container">
+            <div class="links" id="link1"><a href="#">Dashboard</a></div>
+            <div class="links" id="link2"><a href="apis.html">APIs</a></div>
+            <div class="links" id="link3"><a href="apiskeys.html">APIs keys</a></div>
+            <div class="links" id="link4"><a href="/apisreport.html">APIs Report</a></div>
+            <div class="links" id="link5"><a href="/history.html">Payment History</a></div>
+            <div class="links" id="link6"><a href="#">Contact Us</a></div>
+        </div>
+        <div class="right-container">
+            <div class="up">
+                <div class="heading">
+
+                    <h1 class="heading">Plan and Billing</h1>
+                    <h1 class="heading">Current Plan</h1>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Search App">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left-box">
+                    <h1>App name <br> My Insure </h1>
+                </div>
+                <div class="right-box">
+                    <img src="/1.webp" alt="">
+                    <div class="circle">Starter</div>
+                    <div class="info">
+                        <div id="head">
+
+                            <span id="box-up">
+                                
+                                <h1>450 ₫ </h1>
+                                <span>per call</span>
+                            </span>
+                            <div id="valid">
+                                <div id="active1">
+
+                                    <span id="active" class="active">Active</span>
+                                    <div id="smlbx" class="active"></div>
+                                </div>
+                                <div id="date" class="active">Valid Till : DD:MM:YY</div>
+                            </div>
+                        </div>
+                        <ul class="res-list">
+                            <li>Keypad Based Validation (Press 1) or Two-factor authentication with one-time passwords (OTP)</li>
+                            <li>Support Custom </li>
+                            <li>24/7 availability</li>
+                            <li>Analytic Status</li>
+                            <li>All Telco Support</li>
+                            <li>Monthly Fee of VND 100.000
+
+                                ​</li>
+                        </ul>
+                        <button class="btn2" onclick="bnk()">Upgrade </button>
+                        <div class="upgrade" id="upgrad" >
+                            <div class="upg" id="current">
+                                <span>current balance:</span>
+                                <input type="text">
+                            </div>
+                            <div class="upg" id="upgrade">
+                                <span> upgrade:</span>
+                
+                                <input type="text">
+                            </div>
+                            <div id="payment">
+                                <div>
+                
+                                    Choose payment method:
+                    
+                    
+                                </div>
+                                <span>
+                
+                                    <input type="radio" name="local" id="local" value="local"> Local debit card <br>
+                                </span>
+                                <span>
+                
+                                    <input type="radio" name="local" id="int" value="int"> International debit card <br>
+                                </span>
+                                <span>
+                
+                                    <input type="radio" name="local" id="net" value="net"> Net banking
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div >
+                <h1 class="heading downhead">
+
+                    Create New App <br> Choose Plan
+                </h1>
+                <div class="down-cont"> <div class="right-box">
+                    <img src="/1.webp" alt="">
+                    <div class="circle">Starter</div>
+                    <div class="info">
+                        <div id="head">
+
+                            <span id="box-up">
+                                
+                                <h1>450 ₫ </h1>
+                                <span>per call</span>
+                            </span>
+                           
+                        </div>
+                        <ul class="res-list">
+                            <li>Keypad Based Validation (Press 1) or Two-factor authentication with one-time passwords (OTP)</li>
+                            <li>Support Custom </li>
+                            <li>24/7 availability</li>
+                            <li>Analytic Status</li>
+                            <li>All Telco Support</li>
+                            <li>Monthly Fee of VND 100.000
+
+                                ​</li>
+                        </ul>
+                        <button class="btn" onclick="chk()">Buy Now <i class="fa fa-rocket" aria-hidden="true"></i> </button>
+                        
+                        <div class="first " id="first">
+                            <div class="firstc">
+        
+                                <div class="circle2">Starter</div>
+                                <img id="img1" src="/1.webp" alt="">
+                            </div>
+                            <div class="inp">
+                                <h1>App Name</h1>
+                                <input type="text" placeholder="Enter name" id="input1">
+                                <div>
+                
+                                    <input type="radio" name="lan" id="">En
+                                    <input type="radio" name="lan" id="">Vn
+                                </div>
+                                 <div>
+                                    Note: 
+                                    Please enter Name with any Special Characters <br>
+                                    This name shall be played in the Voice Speech in the <br>
+                                    Eg <br>
+                                    Hello, we received a login confirmation for registering into “App Name". Please confirm by pressing "1" in the keypad. Thank you.
+                                    
+                                 </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div></div>
+                <div class="down-cont"> <div class="right-box">
+                    <img src="/2.webp" alt="">
+                    <div class="circle">business</div>
+                    <div class="info">
+                        <div id="head">
+
+                            <span id="box-up">
+                                
+                                <h1>450 ₫ </h1>
+                                <span>per call</span>
+                            </span>
+                           
+                        </div>
+                        <ul class="res-list">
+                            <li>Keypad Based Validation (Press 1) or Two-factor authentication with one-time passwords (OTP)</li>
+                            <li>Support Custom </li>
+                            <li>24/7 availability</li>
+                            <li>Analytic Status</li>
+                            <li>All Telco Support</li>
+                            <li>Monthly Fee of VND 100.000
+
+                                ​</li>
+                        </ul>
+                        <button class="btn" onclick="chk2()">Buy Now <i class="fa fa-rocket" aria-hidden="true"></i> </button>
+                        <div class="first " id="first2">
+                            <div class="firstc">
+        
+                                <div class="circle2">Business</div>
+                                <img id="img1" src="/2.webp" alt="">
+                            </div>
+                            <div class="inp">
+                                <h1>App Name</h1>
+                                <input type="text" placeholder="Enter name" id="input1">
+                                <div>
+                
+                                    <input type="radio" name="lan" id="">En
+                                    <input type="radio" name="lan" id="">Vn
+                                </div>
+                                 <div>
+                                    Note: 
+                                    Please enter Name with any Special Characters <br>
+                                    This name shall be played in the Voice Speech in the <br>
+                                    Eg <br>
+                                    Hello, we received a login confirmation for registering into “App Name". Please confirm by pressing "1" in the keypad. Thank you.
+                                    
+                                 </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div></div>
+                <div class="down-cont" id="dp" > 
+                    <div class="right-box">
+                    <img src="/3.webp" alt="">
+                    <div class="circle">buziness</div>
+                    <div class="info">
+                        <div id="head">
+
+                            <span id="box-up">
+                                
+                                <h1>450 ₫ </h1>
+                                <span>per call</span>
+                            </span>
+                           
+                        </div>
+                        <ul class="res-list">
+                            <li>Keypad Based Validation (Press 1) or Two-factor authentication with one-time passwords (OTP)</li>
+                            <li>Support Custom </li>
+                            <li>24/7 availability</li>
+                            <li>Analytic Status</li>
+                            <li>All Telco Support</li>
+                            <li>Monthly Fee of VND 100.000
+
+                                ​</li>
+                        </ul>
+                        <button class="btn" onclick="chk3()">Buy Now <i class="fa fa-rocket" aria-hidden="true"></i> </button>
+                        <div class="first " id="first3">
+                            <div class="firstc">
+        
+                                <div class="circle2">Business</div>
+                                <img id="img1" src="/3.webp" alt="">
+                            </div>
+                            <div class="inp">
+                                <h1>App Name</h1>
+                                <input type="text" placeholder="Enter name" id="input1">
+                                <div>
+                
+                                    <input type="radio" name="lan" id="">En
+                                    <input type="radio" name="lan" id="">Vn
+                                </div>
+                                 <div>
+                                    Note: 
+                                    Please enter Name with any Special Characters <br>
+                                    This name shall be played in the Voice Speech in the <br>
+                                    Eg <br>
+                                    Hello, we received a login confirmation for registering into “App Name". Please confirm by pressing "1" in the keypad. Thank you.
+                                    
+                                 </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div></div>
+                
+            </div>
+        </div>
+    </section>
+    <script src="/res.js"></script>
+</body>
+</html>

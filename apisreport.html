@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="/apis.css">
+    <link rel="stylesheet" href="/apiskeys.css">
+    <link rel="stylesheet" href="/apisreport.css">
+    <link rel="stylesheet" href="/res.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left-nav">
+
+            <div class="menu-bar" onclick="mn()">
+                <div class="dot">
+                    <div class="dots"></div>
+                    <div class="dots"></div>
+                    <div class="dots"></div>
+                </div>
+                <div class="line">
+                    <div class="lines"></div>
+                    <div class="lines"></div>
+                    <div class="lines"></div>
+                </div>
+            </div>
+            <img class="res" src="/logo1.webp" alt="" id="logo1">
+            <div class="blnc res">Total balance : VND 00.00 <a href="upgrade.html">Upgrade</a></div>
+        </div>
+        <div class="right-nav ">
+            <div class="language ">
+
+                <i class="fa fa-globe active" aria-hidden="true"></i>
+                <div id="lang"><select name="" id="slct">
+                    <option value="lang">English
+                    </option>
+                    <option value="lang">English
+                    </option>
+                    <option value="lang">English
+                    </option>
+                </select></div>
+                <div id="lan"><span>English</span> br<span>dummy</span> </div>
+            </div>
+            <div class="person ">
+
+                <i class="fa fa-user active" onclick="caret()" aria-hidden="true"></i>
+                <span id="per">Mithunpj</span>
+                <i class="fa fa-caret-down active" aria-hidden="true"></i>
+                <div id="login" class="active">
+                    <a href="login.html">login</a>
+                    <a href="#">logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="main">
+
+        <div class="left-container" id="left-container">
+            <div class="links" id="link1"><a href="home.html">Dashboard</a></div>
+            <div class="links" id="link2"><a href="apis.html">APIs</a></div>
+            <div class="links" id="link3"><a href="apiskeys.html">APIs keys</a></div>
+            <div class="links" id="link4"><a href="#">APIs Report</a></div>
+            <div class="links" id="link5"><a href="/history.html">Payment History</a></div>
+            <div class="links" id="link6"><a href="#">Contact Us</a></div>
+            <div class="links" id="link7"><a href="upgrade.html">upgrade</a></div>
+            <div class="links" id="link8"><a href="/login.html">login</a></div>
+            <div class="links" id="link9"><a href="#">logout</a></div>
+        </div>
+        <div class="left-container2" id="left-container">
+            <div class="links" id="link1"><a href="home.html">Dashboard</a></div>
+            <div class="links" id="link2"><a href="apis.html">APIs</a></div>
+            <div class="links" id="link3"><a href="apiskeys.html">APIs keys</a></div>
+            <div class="links" id="link4"><a href="#">APIs Report</a></div>
+            <div class="links" id="link5"><a href="/history.html">Payment History</a></div>
+            <div class="links" id="link6"><a href="#">Contact Us</a></div>
+        </div>
+        <div class="right-container">
+            <div class="upper">
+
+                <div class="right1">
+                    <h1 class="heading1">List Of Trnasaction</h1>
+                    <div class="search1">
+                        <input type="text" placeholder="Search App">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="right2">
+                    <div>App Name</div>
+                    <span>Filter By:</span>
+                    <select name="" id="slct">
+                        <option value="hello">My Insure</option>
+                        <option value="hello">dummy</option>
+                        <option value="hello">dummy</option>
+                        <option value="hello">dummy</option>
+                    </select>
+                </div>
+                <div class="right3">
+                    <div>Period</div>
+                    <input id="from" type="text" placeholder="DD/MM/YYYY"><span>to</span><input id="to" type="text" placeholder="DD/MM/YYYY">
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>App Name</th>
+                        <th>Credited on</th>
+                        <th>Token</th>
+                        <th>Status</th>
+                        <th>Current Plan</th>
+                        <th>Events arrived</th>
+                        <th>Events accepted</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mithunpj</td>
+                        <td>My Insure</td>
+                        <td>30/05/2021</td>
+                        <td>saaf433234f</td>
+                        <td>Active</td>
+                        <td>Starter</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <script src="/res.js"></script>
+</body>
+</html>
